@@ -43,27 +43,5 @@ items:
         schedulerName: default-scheduler
         securityContext: {}
         terminationGracePeriodSeconds: 30
-  status:
-    availableReplicas: 3
-    conditions:
-    - lastTransitionTime: "2021-12-24T07:56:07Z"
-      lastUpdateTime: "2021-12-24T07:56:07Z"
-      message: Deployment has minimum availability.
-      reason: MinimumReplicasAvailable
-      status: "True"
-      type: Available
-    - lastTransitionTime: "2021-12-24T07:41:59Z"
-      lastUpdateTime: "2021-12-24T07:59:22Z"
-      message: ReplicaSet "hello-world-rest-api-687d9c7bc7" has successfully progressed.
-      reason: NewReplicaSetAvailable
-      status: "True"
-      type: Progressing
-    observedGeneration: 4
-    readyReplicas: 3
-    replicas: 3
-    updatedReplicas: 3
-kind: List
-metadata:
-  resourceVersion: ""
-  selfLink: ""
+        
 
